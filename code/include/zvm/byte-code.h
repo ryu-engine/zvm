@@ -3,10 +3,12 @@
 #include <vector>
 #include <cstddef>
 
+#include <zasm/commands.h>
+
 #include "zvm/config.h"
 
 namespace zvm {
 
-using byte_code = std::vector<std::byte>;
+using byte_code = std::vector<zasm::commands::command_type>;
 
 } // namespace zvm
