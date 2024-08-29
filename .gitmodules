@@ -1,0 +1,3 @@
+[submodule "deps/zasm"]
+	path = deps/zasm
+	url = https://github.com/ryu-engine/zasm.git
